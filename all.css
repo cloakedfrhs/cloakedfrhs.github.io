@@ -1,5 +1,5 @@
 body {
-  background-color: #C2F0ED;
+  background-color: #FFFF80;
 }
 #all {
   width: 1000px;
@@ -8,14 +8,14 @@ body {
   margin-left: auto;
   margin-bottom: 10px;
   margin-top: 10px;
-  background-color: #9DCECB;
+  background-color: #FFFFDB;
   border: solid 1px black
 }
 #banner{
   width: 990px;
   height: 100px;
   border: solid 5px black;
-  background: #58C6BF;
+  background: #FFFFCC;
 }
 #name {
   margin: 0px;
@@ -31,7 +31,7 @@ body {
   position: absolute;
   width: 998px;
   border: solid 1px black;
-  background-color: #58C6BF;
+  background-color: #FFFFCC;
 }
 #places div {
   float: left;
@@ -39,15 +39,15 @@ body {
   border: solid black 1px;
 }
 a:link {
-  color: #0066FF;
+  color: #8FB247;
   text-decoration: none;
 }
 a:visited {
-  color: #0066FF;
+  color: #8FB247;
   text-decoration: none;
 }
 #home {
-  color: #58C6BF;
+  color: #FFFFCC;
   position: absolute;
   font-size: 80px;
   margin-top: -100px;

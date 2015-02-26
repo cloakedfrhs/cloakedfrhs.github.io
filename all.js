@@ -2,7 +2,7 @@ function lightup () {
     this.style.background = "#8AD7D2";
 }
 function lightdown () {
-    this.style.background = "#58C6BF";
+    this.style.background = "#FFFFCC";
 }
 window.onload = function () {
   document.getElementById('all').innerHTML = "<a href='index.html'><div id='banner'></div></a><div id='places'></div>"+document.getElementById('all').innerHTML;
@@ -11,7 +11,7 @@ window.onload = function () {
   banner.onmouseover = lightup;
   banner.onmouseout = lightdown;
   banner.innerHTML = "<div id='name'>Cloaked</div><div id='frhs'>- FRHS</div><div id='home'>HOME</div>";
-  var placelist = [['Home','index']];
+  var placelist = [['Rules','rules'],['Tattoos','tattoos'],['Agents','agents'],['Register','register']];
   for (x=0;x<placelist.length;x++){
     var link = document.createElement('a');
     places.appendChild(link);
